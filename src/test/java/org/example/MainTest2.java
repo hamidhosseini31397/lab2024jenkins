@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MainTest2 {
 
     @Test
-    void revers() {
+    void testReverse() {
         assertEquals("olleH", Main.reverseString("Hello"));
     }
 }
