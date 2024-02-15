@@ -71,7 +71,7 @@ negativDateTest3
     #CreateUser    ${firstName1}     ${lastName1}    ${phoneNumber1}     ${email1}   ${password1}
     LoginUser    ${email1}   ${password1}
     SelectDate    ${startDate1}     ${invalidEndDate3}
-    element should be visible    //button[@id='continue']   #continue variabel ska fortfarande finnas kvar för att verifiera att vi ej kom vidare från datumvalet
+    element should be visible    //button[@id*='continue']   #continue variabel ska fortfarande finnas kvar för att verifiera att vi ej kom vidare från datumvalet
  
 WrongPasswordTest
     open browser    ${url}   ${browser}
