@@ -19,7 +19,7 @@ class MainTest {
     @org.junit.jupiter.api.Test
     void testReverse() {
         assertEquals("olleH", Main.reverseString("Hello"));
-        assertEquals("imah", Main.reverseString("hamid"));
+        assertEquals("dimah", Main.reverseString("hamid"));
     }
 }
 
