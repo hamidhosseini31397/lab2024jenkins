@@ -9,7 +9,7 @@ Library    SeleniumLibrary
  
 *** Variables ***
 #Browsers
-${browser}      chrome11
+${browser}      chrome
 ${url}      https://rental2.infotiv.net/
  
 #User details
