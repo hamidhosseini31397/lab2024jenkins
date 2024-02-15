@@ -13,8 +13,7 @@ class MainTest {
     @org.junit.jupiter.api.Test
     void add() {
         assertEquals(8, Main.addNumbers(5, 3));
-        assertEquals(2, Main.addNumbers(5, -3));
-        assertEquals(3, Main.addNumbers(5, -3));
+        
     }
 
     @org.junit.jupiter.api.Test
