@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest1 {
 
-    @Test
+     @org.junit.jupiter.api.Test
     void add() {
         assertEquals(8, Main.addNumbers(5, 3));
     }
